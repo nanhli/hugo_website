@@ -1,0 +1,40 @@
+baseURL = "http://example.com"
+languageCode = "en-gb"
+title = "He's Website" 
+theme = "hugo-developer-portfolio" 
+
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+# navigation
+[menu]
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+
+[params]
+  home = "Home" # What you want the homepage to show up as in the menu bar
+  # Meta data
+  description = ""
+  author = "He Li"
+
+
+  [params.contact]
+  formAction = "https://formspree.io/f/xqkngjnd" # Add your formspree URL here to get emails
+
+  # This contains the contact information for the footer
+  [params.footer]
+  email = "nanhli@gmail.com"
+  address = "Ithaca, NY"
+  googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"
+

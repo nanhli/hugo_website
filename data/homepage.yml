@@ -1,0 +1,42 @@
+banner:
+  title: Hi! I’m He Li
+social:
+  twitter: ""
+  linkedin: he-li-sde
+  bitbucket: ""
+  github: nanhli
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: ""
+  hotmail: ""
+  telegram: ""
+  whatsapp: ""
+about:
+  enable: true
+  content: Cornell University MEng CS student 
+  button:
+    btnText: Find out more
+    URL: "/about"
+
+
+experience:
+  enable: true
+  item:
+    - logo: https://upload.wikimedia.org/wikipedia/commons/0/07/ByteDance_logo_English.svg
+      title: SDE Intern
+      company: Bytedance
+      duration: March 2021 - July 2021
+
+education:
+  enable: true
+  item:
+    - title: BSc Finance
+      year: 2016 - 2020
+      academy: Monash University
+      image: https://upload.wikimedia.org/wikipedia/commons/7/7c/Monash_University_logo.svg
+  item:
+    - title: MEng CS
+      year: 2021 - present
+      academy: Cornell University
+      image: https://upload.wikimedia.org/wikipedia/commons/4/47/Cornell_University_seal.svg
